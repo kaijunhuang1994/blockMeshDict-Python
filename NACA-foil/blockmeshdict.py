@@ -177,7 +177,6 @@ def gen_blockmeshdict(foil="0012", alpha_deg=4):
     # # Calculate number of mesh points along 5-7 and 6-7
     # Ntrailing = (Nx - Nleading)-130
 
-    print(Nleading,Ntrailing)
     # Open file
     f = open("blockMeshDict", "w")
 
